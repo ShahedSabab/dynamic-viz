@@ -10,11 +10,17 @@ The objective of this project is to develop a dynamic dashboard in Tableau which
 <img src="dynamicViz.gif" width="100%">
 
 # How to run:
-> 1. Download XAMP from the following link:
+1. Download XAMP from the following link: <br>
 https://www.apachefriends.org/download.html
 
-> 2. Create a database into the server and insert data from data.csv.
+2. Create a database into the server and insert data from the data.csv file.<br>
 
-> 3. Download the MYSQL driver from the following link.
+3. Download the MYSQL driver from the following link.<br>
 https://www.tableau.com/support/drivers?_ga=2.248449924.208892635.1591984007-131215343.1584834650&_fsi=9MP9fyGg
-and connect the database with Tableu.
+
+4. Connect the database (i.e., hosted in the MYSQL server) with Tableu. <br>
+
+5. Go inside the directory of the webAPI and run the following command. <br>
+pip install requirement.txt
+
+6.
