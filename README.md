@@ -20,7 +20,16 @@ https://www.tableau.com/support/drivers?_ga=2.248449924.208892635.1591984007-131
 
 4. Connect the database (i.e., hosted in the MYSQL server) with Tableu. <br>
 
-5. Go inside the directory of the webAPI and run the following command. <br>
->>pip install requirement.txt
+5. Go inside webAPI directory and run the following command. <br>
+> pip install requirement.txt
 
-6.
+6. Go inside webAPI/webAPI/settings.py and check the database settings (provide MYSQL server info).<br>
+
+7. Run the following commands: <br>
+> python manage.py makemigrations
+> python manage.py migrate
+> python manage.py runserver
+
+8. Go to the localhost using any web browser and copy->paste the following links.<br>
+Get all data/post data: http://127.0.0.1:8000/apiDetails/
+Get specific year data: http://127.0.0.1:8000/apiDetails/<year>  
