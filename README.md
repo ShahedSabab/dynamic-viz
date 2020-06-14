@@ -18,7 +18,7 @@ https://www.apachefriends.org/download.html
 3. Download the MYSQL driver from the following link.<br>
 https://www.tableau.com/support/drivers?_ga=2.248449924.208892635.1591984007-131215343.1584834650&_fsi=9MP9fyGg
 
-4. Open the WebUpdate.twb file and connect it to the database (i.e., choose MYSQL server as the datasource and provide connection info). <br>
+4. Open the WebUpdate.twb file using Tableau Desktop and connect it to the database (i.e., choose MYSQL server as the datasource and provide connection info). <br>
 
 5. Go inside webAPI directory and run the following command. <br>
 > pip install requirement.txt
