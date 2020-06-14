@@ -32,4 +32,4 @@ https://www.tableau.com/support/drivers?_ga=2.248449924.208892635.1591984007-131
 
 8. Go to the localhost using any web browser and copy->paste the following links.<br>
 Get all data/post data: http://127.0.0.1:8000/apiDetails/ <br>
-Get specific year data: http://127.0.0.1:8000/apiDetails/<year> <br>  
+Get specific year data: http://127.0.0.1:8000/apiDetails/(year) <br>  
