@@ -21,6 +21,6 @@ https://www.tableau.com/support/drivers?_ga=2.248449924.208892635.1591984007-131
 4. Connect the database (i.e., hosted in the MYSQL server) with Tableu. <br>
 
 5. Go inside the directory of the webAPI and run the following command. <br>
-pip install requirement.txt
+>>pip install requirement.txt
 
 6.
